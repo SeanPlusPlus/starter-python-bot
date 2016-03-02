@@ -48,7 +48,7 @@ def process_message(data):
 
 def process_mention(data):
     logging.debug("process_mention:data: {}".format(data))
-    outputs.append([data['channel'], "You really do care about me. :heart:"])
+    outputs.append([data['channel'], "Dude!!! You really do care about me. :heart:"])
 
 def build_demo_attachment(txt):
     return {
